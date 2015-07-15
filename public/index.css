@@ -1,0 +1,15 @@
+html, body {
+  font: normal 100% sans-serif;
+}
+
+.container {
+  width: 50%;
+  border: 1px solid lightgray;
+  margin: 1em;
+  padding: 1em;
+  text-align: left;
+}
+
+input {
+  padding: .5em;
+}
