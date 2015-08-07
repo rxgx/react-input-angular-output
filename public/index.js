@@ -41,8 +41,14 @@ var app = angular.module('app', []);
     }
 
     function link(scope, element, attrs, controller) {
+      // Render the React component
       var input = React.createElement(InputComponent, { onChange: controller.setMessage });
       React.render(input, element[0]);
+      
+      // Cleanup when destroyed
+      element.on('$destroy', function() {
+        React.unmountComponentAtNode(element[0]);
+      });
     }
   }
 })();
