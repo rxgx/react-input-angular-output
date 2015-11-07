@@ -5,9 +5,9 @@
 If you already have Bower installed you can skip the `npm` command. After cloning this project, run the following commands in your terminal.
 
 ```shell
-npm install -g bower
-bower install
-open index.html
+npm install
+npm run install
+npm start
 ```
 
 #### How does this work?
