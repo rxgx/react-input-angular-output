@@ -1,7 +1,6 @@
-# react-input-angular-output
-How to embed a ReactJS component in an AngularJS app
+## How To Use React Components in Angular Directives
 
-### Directions
+#### How to run this example in your browser
 
 If you already have Bower installed you can skip the `npm` command. After cloning this project, run the following commands in your terminal.
 
@@ -11,7 +10,7 @@ bower install
 open index.html
 ```
 
-### How To Use React Components in Angular Directives
+#### How does this work?
 
 Inside the directive `link` function, mount the React component to the `element` argument. Because the `element` argument is a jQuery-like object, use `element[0]` to get the DOM node. Then, using the `controller` attribute, the values and functions can be sent to the component as `props`.
 
