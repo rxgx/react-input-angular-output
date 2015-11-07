@@ -2,7 +2,7 @@
 
 #### How to run this example in your browser
 
-If you already have Bower installed you can skip the `npm` command. After cloning this project, run the following commands in your terminal.
+After cloning this project, run the following commands in your terminal. This will (1) install bower to the local `node_modules`, (2) run `bower install` using local Bower, and (3) open `index.html` in your default browser.
 
 ```shell
 npm install
